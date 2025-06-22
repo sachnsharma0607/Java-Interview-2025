@@ -11,8 +11,8 @@ System.out.print(b+", ");
 for(int i =0;i<9;i++)
 {
 	c=a+b;
-	a=b;
-	b=c;
+	b=a;
+	a=c;
 	
 	System.out.print(c+", ");
 }
