@@ -16,7 +16,9 @@ public static void main(String[] args) {
 	for (Object i : myList) {
         if (set.contains(i)) {
             duplicates.add(i);
-        } 
+        } else {
+            set.add(i);
+        }
     }
     System.out.println(duplicates);
 }
